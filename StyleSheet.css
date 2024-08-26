@@ -1,0 +1,385 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html,body{
+    width: 100vw;
+    max-width: 100%;
+    min-height: 100vh;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+@media (max-width: 1512px) {
+    html,body{
+        overflow-x: hidden;
+    }
+    body{
+        position:relative;
+    }
+}
+
+@keyframes cursor {
+    50% { border-color: transparent}
+}
+
+@keyframes typing {
+    from {width: 0}
+}
+
+a:link{
+    color: black;
+}
+
+a:visited{
+    color: black;
+}
+
+a:hover{
+    color: white;
+}
+
+.hwords{
+    padding: 15px;
+    font-size: 25px;
+    letter-spacing: 10px;
+    font-family: monospace;
+    border-right: 15px solid;
+    width: 310px;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 2s steps(13),
+    cursor 0.5s step-end infinite alternate;
+}
+
+.buttons{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    overflow:auto;
+}
+
+.proj{
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 22px;
+}
+
+.projects{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-right: 15px;
+    border-right: 2px solid;
+}
+
+.homea{
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 22px;
+}
+
+.homeli{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-right: 15px;
+    border-right: 2px solid;
+}
+
+.contact{
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 22px;
+}
+
+.contactp{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.navbar{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    background-color: lightslategray;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pic {
+    float: left;
+    margin-right: 15px;
+}
+.picdesc{
+    margin-left: 15px;
+    display: flex;
+    border-style: solid;
+    width: 97.5%;
+    margin-top: 100px;
+    background-color: white;
+    border-color: white;
+    border-width: 15px;
+    border-radius: 10px;
+}
+
+.desc{
+    border-style: solid;
+    overflow: hidden;
+    font-size: 18px;
+    font-family: monospace;
+    border-color: lightslategray;
+    background-color: lightslategray;
+    border-width: 15px;
+    border-radius: 10px;
+}
+
+.languages{
+    border-style: solid;
+    margin-left: 15px;
+    margin-top: 15px;
+    width: 97.5%;
+    background-color: white;
+    border-color: white;
+    border-width: 15px;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+
+.langlist{
+    border-width: 15px;
+    border-radius: 10px;
+    border-color: lightslategray;
+    padding-left: 25px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    background-color: lightslategray;
+    font-family: monospace;
+    font-size: 24px;
+    margin-right: 15px;
+    overflow: hidden;
+}
+
+.lang{
+    font-size: 18px;
+}
+
+.education{
+    margin-left: 15px;
+    display: flex;
+    border-style: solid;
+    width: 97.5%;
+    margin-top: 15px;
+    background-color: white;
+    justify-content: space-between;
+    border-color: white;
+    border-width: 15px;
+    border-radius: 10px;
+}
+
+.edlist{
+    border-width: 15px;
+    border-radius: 10px;
+    border-color: lightslategray;
+    padding: 15px;
+    margin-left: 15px;
+    background-color: lightslategray;
+    font-family: monospace;
+    font-size: 24px;
+    overflow: hidden;
+}
+
+.school{
+    font-size: 18px;
+}
+
+.diploma{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.experience{
+    margin-left: 15px;
+    display: flex;
+    border-style: solid;
+    width: 97.5%;
+    margin-top: 15px;
+    background-color: white;
+    justify-content: space-between;
+    border-color: white;
+    border-width: 15px;
+    border-radius: 10px;
+}
+
+.explist{
+    border-width: 15px;
+    border-radius: 10px;
+    border-color: lightslategray;
+    padding: 15px;
+    margin-right: 15px;
+    background-color: lightslategray;
+    font-family: monospace;
+    font-size: 24px;
+    overflow: hidden;
+}
+
+.exp{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.expinfo{
+    font-size: 18px;
+}
+
+.leadership{
+    margin-left: 15px;
+    display: flex;
+    border-style: solid;
+    width: 97.5%;
+    margin-top: 15px;
+    background-color: white;
+    justify-content: space-between;
+    border-color: white;
+    border-width: 15px;
+    border-radius: 10px;
+}
+
+.leadlist{
+    border-width: 15px;
+    border-radius: 10px;
+    border-color: lightslategray;
+    padding: 15px;
+    margin-left: 15px;
+    background-color: lightslategray;
+    font-family: monospace;
+    font-size: 24px;
+    overflow: hidden;
+}
+
+.lead{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.leadinfo{
+    font-size: 18px;
+}
+
+.contactdesc{
+    margin-top: 100px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-family: monospace;
+    border-style: solid;
+    width: 97.5%;
+    background-color: white;
+    border-color: white;
+    border-width: 15px;
+    border-radius: 10px;
+}
+
+.emailform {
+    background-color: white;
+    margin-left: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 97.5%;
+    margin: auto;
+}
+
+.contacttextbox {
+    font-family: monospace;
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.contactor{
+    width: 100%;
+}
+
+.contactor::placeholder{
+    font-family: monospace;
+}
+
+.contactoremail{
+    width: 100%;
+}
+
+.contactoremail::placeholder{
+    font-family: monospace;
+}
+
+.contactmessage {
+    font-family: monospace;
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.sendbutton {
+    font-family: monospace;
+    width: 100%;
+    padding: 10px;
+    background-color: lightslategray;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.sendbutton:hover {
+    background-color: lightgray;
+}
+
+.projectspage{
+    margin-top: 100px;
+    margin-left: 15px;
+    border-style: solid;
+    width: 97.5%;
+    background-color: white;
+    border-color: white;
+    border-width: 15px;
+    border-radius: 10px;
+}
+
+.projsection{
+    margin-bottom: 15px;
+    border-width: 15px;
+    border-radius: 10px;
+    border-color: lightslategray;
+    padding: 15px;
+    background-color: lightslategray;
+    overflow: hidden;
+}
+
+.projhead{
+    font-size: 24px;
+    font-family: monospace;
+}
+
+.projdesc{
+    font-size: 18px;
+    font-family: monospace;
+}
+.projpic{
+    margin-right: 15px;
+    float: left;
+}
+
