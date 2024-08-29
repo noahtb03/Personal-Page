@@ -151,7 +151,6 @@ a:hover{
     border-radius: 10px;
     overflow: hidden;
     display: flex;
-    justify-content: space-between;
 }
 
 .langlist{
@@ -180,7 +179,6 @@ a:hover{
     width: 97.5%;
     margin-top: 15px;
     background-color: white;
-    justify-content: space-between;
     border-color: white;
     border-width: 15px;
     border-radius: 10px;
@@ -214,7 +212,6 @@ a:hover{
     width: 97.5%;
     margin-top: 15px;
     background-color: white;
-    justify-content: space-between;
     border-color: white;
     border-width: 15px;
     border-radius: 10px;
@@ -248,7 +245,6 @@ a:hover{
     width: 97.5%;
     margin-top: 15px;
     background-color: white;
-    justify-content: space-between;
     border-color: white;
     border-width: 15px;
     border-radius: 10px;
