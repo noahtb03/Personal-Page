@@ -161,6 +161,7 @@ a:hover{
     padding-top: 15px;
     padding-right: 15px;
     padding-bottom: 15px;
+    width: 100%;
     background-color: lightslategray;
     font-family: monospace;
     font-size: 24px;
