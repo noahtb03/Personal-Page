@@ -173,6 +173,10 @@ a:hover{
     font-size: 18px;
 }
 
+.langpic{
+    float: right;
+}
+
 .education{
     margin-left: 15px;
     display: flex;
