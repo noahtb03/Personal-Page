@@ -150,7 +150,6 @@ a:hover{
     border-width: 15px;
     border-radius: 10px;
     overflow: hidden;
-    justify-content: space-between;
 }
 
 .langlist{
@@ -161,7 +160,6 @@ a:hover{
     padding-top: 15px;
     padding-right: 15px;
     padding-bottom: 15px;
-    min-width: fit-content;
     background-color: lightslategray;
     font-family: monospace;
     font-size: 24px;
