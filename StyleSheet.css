@@ -150,7 +150,7 @@ a:hover{
     border-width: 15px;
     border-radius: 10px;
     overflow: hidden;
-    display: inline-block;
+    display: flex;
 }
 
 .langlist{
