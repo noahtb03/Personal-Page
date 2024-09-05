@@ -150,7 +150,6 @@ a:hover{
     border-width: 15px;
     border-radius: 10px;
     overflow: hidden;
-    display: flex;
     justify-content: space-between;
 }
 
