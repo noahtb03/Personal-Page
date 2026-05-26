@@ -4,7 +4,7 @@ Personal portfolio website built with React and Vite.
 
 ## Tech Stack
 
-- **React** — component-based UI
+- **React** — component based UI
 - **Vite** — build tooling and dev server
 - **Google Fonts** — Syne & DM Sans typography
 
